@@ -1,0 +1,13 @@
+<div id="input-custom-checkout-field">
+    <strong><?php echo __('Custom Input Checkout Field') ?></strong>
+    <span class="field"><?=$block->getInputCustomCheckoutField() ?></span></div>
+<script type="text/javascript">
+    require(
+        ['jquery'],
+        function($) {
+            var element = $('#input-custom-checkout-field').detach();
+            $('.order-shipping-method').append(element);
+        }
+    );
+</script>
+

@@ -5,5 +5,5 @@
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento360_ExtraCheckoutStep', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento360_CheckoutField', __DIR__);
 
